@@ -1,0 +1,41 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="WindowBackgroundColor">#F5F5F5</Color>
+    <Color x:Key="PanelBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="PanelBorderColor">#E0E0E0</Color>
+    <Color x:Key="TextForegroundColor">#212121</Color>
+    <Color x:Key="LabelForegroundColor">#616161</Color>
+    <Color x:Key="InputBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="InputForegroundColor">#212121</Color>
+    <Color x:Key="InputBorderColor">#BDBDBD</Color>
+    <Color x:Key="AccentColorValue">#007ACC</Color>
+    <Color x:Key="AccentHoverColor">#1084D7</Color>
+    <Color x:Key="AccentPressedColor">#005A9E</Color>
+    <Color x:Key="LogBackgroundColor">#FAFAFA</Color>
+    <Color x:Key="LogForegroundColor">#388E3C</Color>
+    <Color x:Key="GradientStartColor">#F5F5F5</Color>
+    <Color x:Key="GradientMidColor">#FFFFFF</Color>
+    <Color x:Key="GradientEndColor">#F5F5F5</Color>
+
+    <SolidColorBrush x:Key="WindowBackground" Color="{StaticResource WindowBackgroundColor}"/>
+    <SolidColorBrush x:Key="PanelBackground" Color="{StaticResource PanelBackgroundColor}"/>
+    <SolidColorBrush x:Key="PanelBorder" Color="{StaticResource PanelBorderColor}"/>
+    <SolidColorBrush x:Key="TextForeground" Color="{StaticResource TextForegroundColor}"/>
+    <SolidColorBrush x:Key="LabelForeground" Color="{StaticResource LabelForegroundColor}"/>
+    <SolidColorBrush x:Key="InputBackground" Color="{StaticResource InputBackgroundColor}"/>
+    <SolidColorBrush x:Key="InputForeground" Color="{StaticResource InputForegroundColor}"/>
+    <SolidColorBrush x:Key="InputBorder" Color="{StaticResource InputBorderColor}"/>
+    <SolidColorBrush x:Key="AccentColor" Color="{StaticResource AccentColorValue}"/>
+    <SolidColorBrush x:Key="AccentHover" Color="{StaticResource AccentHoverColor}"/>
+    <SolidColorBrush x:Key="AccentPressed" Color="{StaticResource AccentPressedColor}"/>
+    <SolidColorBrush x:Key="LogBackground" Color="{StaticResource LogBackgroundColor}"/>
+    <SolidColorBrush x:Key="LogForeground" Color="{StaticResource LogForegroundColor}"/>
+
+    <LinearGradientBrush x:Key="WindowGradient" StartPoint="0%,0%" EndPoint="100%,100%">
+        <GradientStop Offset="0" Color="{StaticResource GradientStartColor}"/>
+        <GradientStop Offset="0.3" Color="{StaticResource GradientMidColor}"/>
+        <GradientStop Offset="1" Color="{StaticResource GradientEndColor}"/>
+    </LinearGradientBrush>
+
+</ResourceDictionary>

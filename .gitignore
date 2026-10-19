@@ -1,0 +1,27 @@
+## Visual Studio / .NET Core
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+.vs/
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+# Archives and local database files
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
